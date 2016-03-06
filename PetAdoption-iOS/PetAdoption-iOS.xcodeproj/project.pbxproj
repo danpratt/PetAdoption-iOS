@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3F8515E21C6CBD100FACB0F6 /* Pods_PetAdoption_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45654696408DDD70011AF14D /* Pods_PetAdoption_iOS.framework */; };
+		420161591C8CC8A600745E63 /* Info.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4201615B1C8CC8A600745E63 /* Info.storyboard */; };
+		4201615E1C8CC8C200745E63 /* LostPet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420161601C8CC8C200745E63 /* LostPet.storyboard */; };
+		420161631C8CC8CD00745E63 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420161651C8CC8CD00745E63 /* Search.storyboard */; };
+		420161681C8CC8D300745E63 /* PetListings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4201616A1C8CC8D300745E63 /* PetListings.storyboard */; };
 		42C2522A1C8881DE00B2BE6D /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C252291C8881DE00B2BE6D /* BackgroundView.swift */; };
 		42C2522C1C8899BD00B2BE6D /* TransparentNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C2522B1C8899BD00B2BE6D /* TransparentNavBar.swift */; };
 		D013BFA51C716B7E007C8808 /* ImageGalleryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D013BFA41C716B7E007C8808 /* ImageGalleryView.xib */; };
@@ -30,10 +34,6 @@
 		D0950B131C61A667002E198C /* PetImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0950B121C61A667002E198C /* PetImageCollectionViewCell.swift */; };
 		D0E536791C70405D004794D8 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E536781C70405D004794D8 /* SearchViewController.swift */; };
 		D0E5367B1C70412A004794D8 /* PetListingDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E5367A1C70412A004794D8 /* PetListingDetailViewController.swift */; };
-		D769DE3A1C62E9AE008C0BF8 /* Info.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D769DE391C62E9AE008C0BF8 /* Info.storyboard */; };
-		D769DE3C1C62EA82008C0BF8 /* LostPet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D769DE3B1C62EA82008C0BF8 /* LostPet.storyboard */; };
-		D769DE3E1C62EB6A008C0BF8 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D769DE3D1C62EB6A008C0BF8 /* Search.storyboard */; };
-		D769DE401C62EDB1008C0BF8 /* PetListings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D769DE3F1C62EDB1008C0BF8 /* PetListings.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +54,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		420161571C8CC88300745E63 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		420161581C8CC88300745E63 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		4201615A1C8CC8A600745E63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Info.storyboard; sourceTree = "<group>"; };
+		4201615D1C8CC8BA00745E63 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Info.strings; sourceTree = "<group>"; };
+		4201615F1C8CC8C200745E63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LostPet.storyboard; sourceTree = "<group>"; };
+		420161621C8CC8C600745E63 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LostPet.strings; sourceTree = "<group>"; };
+		420161641C8CC8CD00745E63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Search.storyboard; sourceTree = "<group>"; };
+		420161671C8CC8CF00745E63 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Search.strings; sourceTree = "<group>"; };
+		420161691C8CC8D300745E63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/PetListings.storyboard; sourceTree = "<group>"; };
+		4201616C1C8CC8D600745E63 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/PetListings.strings; sourceTree = "<group>"; };
 		42C252291C8881DE00B2BE6D /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		42C2522B1C8899BD00B2BE6D /* TransparentNavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransparentNavBar.swift; sourceTree = "<group>"; };
 		45654696408DDD70011AF14D /* Pods_PetAdoption_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PetAdoption_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,10 +96,6 @@
 		D0950B121C61A667002E198C /* PetImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		D0E536781C70405D004794D8 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		D0E5367A1C70412A004794D8 /* PetListingDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetListingDetailViewController.swift; sourceTree = "<group>"; };
-		D769DE391C62E9AE008C0BF8 /* Info.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Info.storyboard; sourceTree = "<group>"; };
-		D769DE3B1C62EA82008C0BF8 /* LostPet.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LostPet.storyboard; sourceTree = "<group>"; };
-		D769DE3D1C62EB6A008C0BF8 /* Search.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
-		D769DE3F1C62EDB1008C0BF8 /* PetListings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PetListings.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -288,10 +294,10 @@
 			isa = PBXGroup;
 			children = (
 				D0950ACB1C618C2F002E198C /* Main.storyboard */,
-				D769DE391C62E9AE008C0BF8 /* Info.storyboard */,
-				D769DE3B1C62EA82008C0BF8 /* LostPet.storyboard */,
-				D769DE3D1C62EB6A008C0BF8 /* Search.storyboard */,
-				D769DE3F1C62EDB1008C0BF8 /* PetListings.storyboard */,
+				4201615B1C8CC8A600745E63 /* Info.storyboard */,
+				420161601C8CC8C200745E63 /* LostPet.storyboard */,
+				420161651C8CC8CD00745E63 /* Search.storyboard */,
+				4201616A1C8CC8D300745E63 /* PetListings.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -385,6 +391,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = D0950ABB1C618C2F002E198C;
 			productRefGroup = D0950AC51C618C2F002E198C /* Products */;
@@ -403,16 +410,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D769DE3A1C62E9AE008C0BF8 /* Info.storyboard in Resources */,
+				420161591C8CC8A600745E63 /* Info.storyboard in Resources */,
 				D0950AD21C618C2F002E198C /* LaunchScreen.storyboard in Resources */,
 				D0950ACF1C618C2F002E198C /* Assets.xcassets in Resources */,
 				D0950AF61C618CE4002E198C /* Podfile in Resources */,
 				D0950ACD1C618C2F002E198C /* Main.storyboard in Resources */,
 				D0950B101C61A5F3002E198C /* PetImageCollectionViewCell.xib in Resources */,
-				D769DE401C62EDB1008C0BF8 /* PetListings.storyboard in Resources */,
+				420161681C8CC8D300745E63 /* PetListings.storyboard in Resources */,
 				D013BFA51C716B7E007C8808 /* ImageGalleryView.xib in Resources */,
-				D769DE3E1C62EB6A008C0BF8 /* Search.storyboard in Resources */,
-				D769DE3C1C62EA82008C0BF8 /* LostPet.storyboard in Resources */,
+				420161631C8CC8CD00745E63 /* Search.storyboard in Resources */,
+				4201615E1C8CC8C200745E63 /* LostPet.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,10 +541,47 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		4201615B1C8CC8A600745E63 /* Info.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4201615A1C8CC8A600745E63 /* Base */,
+				4201615D1C8CC8BA00745E63 /* es */,
+			);
+			name = Info.storyboard;
+			sourceTree = "<group>";
+		};
+		420161601C8CC8C200745E63 /* LostPet.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4201615F1C8CC8C200745E63 /* Base */,
+				420161621C8CC8C600745E63 /* es */,
+			);
+			name = LostPet.storyboard;
+			sourceTree = "<group>";
+		};
+		420161651C8CC8CD00745E63 /* Search.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				420161641C8CC8CD00745E63 /* Base */,
+				420161671C8CC8CF00745E63 /* es */,
+			);
+			name = Search.storyboard;
+			sourceTree = "<group>";
+		};
+		4201616A1C8CC8D300745E63 /* PetListings.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				420161691C8CC8D300745E63 /* Base */,
+				4201616C1C8CC8D600745E63 /* es */,
+			);
+			name = PetListings.storyboard;
+			sourceTree = "<group>";
+		};
 		D0950ACB1C618C2F002E198C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D0950ACC1C618C2F002E198C /* Base */,
+				420161571C8CC88300745E63 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -546,6 +590,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				D0950AD11C618C2F002E198C /* Base */,
+				420161581C8CC88300745E63 /* es */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";

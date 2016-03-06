@@ -1,0 +1,12 @@
+
+/* Class = "UITabBarItem"; title = "About"; ObjectID = "D7P-bf-tcm"; */
+"D7P-bf-tcm.title" = "About";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "Mes-tW-Ryy"; */
+"Mes-tW-Ryy.title" = "Home";
+
+/* Class = "UITabBarItem"; title = "Search"; ObjectID = "fSr-cZ-d8y"; */
+"fSr-cZ-d8y.title" = "Search";
+
+/* Class = "UITabBarItem"; title = "Lost Pet"; ObjectID = "kJf-ca-RLp"; */
+"kJf-ca-RLp.title" = "Lost Pet";
